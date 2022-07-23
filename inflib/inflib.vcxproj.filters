@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\inflib">
+      <UniqueIdentifier>{83e2bc98-4ad6-48dc-a1fe-56652a9a39df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\inflib">
+      <UniqueIdentifier>{3f549ed5-64e9-40c6-902e-3b3898a8cd58}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmap.c">
+      <Filter>Source Files\inflib</Filter>
+    </ClCompile>
+    <ClCompile Include="epo.c">
+      <Filter>Source Files\inflib</Filter>
+    </ClCompile>
+    <ClCompile Include="finfect.c">
+      <Filter>Source Files\inflib</Filter>
+    </ClCompile>
+    <ClCompile Include="infect.c">
+      <Filter>Source Files\inflib</Filter>
+    </ClCompile>
+    <ClCompile Include="mem_map.c">
+      <Filter>Source Files\inflib</Filter>
+    </ClCompile>
+    <ClCompile Include="pe_misc.c">
+      <Filter>Source Files\inflib</Filter>
+    </ClCompile>
+    <ClCompile Include="random.c">
+      <Filter>Source Files\inflib</Filter>
+    </ClCompile>
+    <ClCompile Include="stub_inst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="error.c">
+      <Filter>Source Files\inflib</Filter>
+    </ClCompile>
+    <ClCompile Include="patch.c">
+      <Filter>Source Files\inflib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stub_inst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stub.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cmap.h">
+      <Filter>Header Files\inflib</Filter>
+    </ClInclude>
+    <ClInclude Include="epo.h">
+      <Filter>Header Files\inflib</Filter>
+    </ClInclude>
+    <ClInclude Include="conf.h">
+      <Filter>Header Files\inflib</Filter>
+    </ClInclude>
+    <ClInclude Include="finfect.h">
+      <Filter>Header Files\inflib</Filter>
+    </ClInclude>
+    <ClInclude Include="infect.h">
+      <Filter>Header Files\inflib</Filter>
+    </ClInclude>
+    <ClInclude Include="mem_map.h">
+      <Filter>Header Files\inflib</Filter>
+    </ClInclude>
+    <ClInclude Include="pe_misc.h">
+      <Filter>Header Files\inflib</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>Header Files\inflib</Filter>
+    </ClInclude>
+    <ClInclude Include="error.h">
+      <Filter>Header Files\inflib</Filter>
+    </ClInclude>
+    <ClInclude Include="patch.h">
+      <Filter>Header Files\inflib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="stub.asm">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
